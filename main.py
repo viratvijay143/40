@@ -29,9 +29,9 @@ from os import environ
 # import pycurl
 
 bot = Client("bot",
-             bot_token= "7134476511:AAHJu8rc9LxoRu6A_oJHV70WEAgG1fYCWOQ",
-             api_id=23455230,
-             api_hash= "1740e4541ec18b9cdd3e5ff6f3687d46")
+             bot_token= "7109764791:AAGQcpywUqlt2M77acmsSu31N8RxY-KXU1c",
+             api_id=20047839,
+             api_hash= "e635f85a4dae812a26c450c0d41276b0")
     workers= 6)
 
 
