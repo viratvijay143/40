@@ -28,11 +28,10 @@ import os
 from os import environ
 # import pycurl
 
-bot = Client(
-    "bot",
-    bot_token=environ.get('BOT_TOKEN'), 
-    api_id=int(environ.get('API_ID')), 
-    api_hash=environ.get('API_HASH'),
+bot = Client("bot",
+             bot_token= "7134476511:AAHJu8rc9LxoRu6A_oJHV70WEAgG1fYCWOQ",
+             api_id=23455230,
+             api_hash= "1740e4541ec18b9cdd3e5ff6f3687d46")
     workers= 6)
 
 
