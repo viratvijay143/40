@@ -29,12 +29,11 @@ from os import environ
 # import pycurl
 
 bot = Client("bot",
-             bot_token= "7109764791:AAGQcpywUqlt2M77acmsSu31N8RxY-KXU1c",
+             bot_token= "6785463060:AAGAoTkrfA_tWtCwfarRlUIDt-4dT9xgB3g",
              api_id=20047839,
-             api_hash= "e635f85a4dae812a26c450c0d41276b0")
-    workers= 6)
-
-
+             api_hash= "e635f85a4dae812a26c450c0d41276b0"
+            )
+    
 @bot.on_message(filters.command(["help"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("Hello Im txt File Downloader\n\n**Steps To Use Bot:**\n **1:** Send /start & then send your .txt file.\n **2:** Now Send From Where You Want To    Download Initial is 0 .\n **3:** Now Send Your File Name or Use 'de' For.  Use Default File Name.\n **4:** Now Send Resolution In Which Quality    You Want.\n **5:** Now Againg Send /start.\n **6:** Now Send Custom Thum URL or    Send 'no'To Use Defalut Thumbnail.\n **7:** Now Wait Bot will Download & Upload Your    Videos.\n\n**Bot made by AKKI & Updated By @AKKI**")
@@ -311,8 +310,8 @@ async def account_login(bot: Client, m: Message):
             try:
                 Show = f"**Downloading:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`\n\n"
                 prog = await m.reply_text(Show)
-                cc = f'**File Name »** {name1} @AKKI.mp4\n**Batch »** {raw_text0}\n\n**{CR}**'
-                cc1 =f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1} @AKKI.pdf\n**Batch »** {raw_text0}\n\n**{CR}**'
+                cc = f'**File Name »** {name1} @vijaysahu_2.mp4\n**Batch »** {raw_text0}\n\n**{CR}**'
+                cc1 =f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1} @vijaysahu_2.pdf\n**Batch »** {raw_text0}\n\n**{CR}**'
                 if cmd == "pdf" or "drive" in url:
                     try:
                         ka=await helper.download(url,name)
