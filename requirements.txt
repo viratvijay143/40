@@ -12,6 +12,4 @@ humanize
 flask==2.2.2
 gunicorn==20.1.0
 aiohttp
-pycryptodome
-N-M3U8-RE
-Streamlink
+
